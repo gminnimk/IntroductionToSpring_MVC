@@ -8,11 +8,10 @@ import lombok.Getter;  // Lombok의 Getter 애노테이션을 임포트합니다
 Lombok의 @Getter 애노테이션을 사용하여 Getter 메서드를 자동으로 생성하여 코드의 가독성을 높였습니다.
  */
 
-
 @Getter  // 모든 필드에 대한 Getter 메서드를 자동으로 생성합니다.
 public class Star {
-    String name;  // 별의 이름을 나타내는 필드입니다.
-    int age;  // 별의 나이를 나타내는 필드입니다.
+    public String name;  // 별의 이름을 나타내는 필드입니다.
+    public int age;  // 별의 나이를 나타내는 필드입니다.
 
     // 생성자
     public Star(String name, int age) {
